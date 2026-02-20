@@ -1,0 +1,35 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="sand-gradient" x1="100" y1="40" x2="100" y2="160" gradientUnits="userSpaceOnUse">
+<stop stop-color="#e0c3fc"/>
+<stop offset="1" stop-color="#8ec5fc"/>
+</linearGradient>
+<filter id="glow" x="0" y="0" width="200" height="200" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="4" result="effect1_foregroundBlur"/>
+</filter>
+</defs>
+
+<!-- Glass Container Top -->
+<path d="M60 40C60 28.9543 68.9543 20 80 20H120C131.046 20 140 28.9543 140 40V80C140 91.0457 131.046 100 120 100H80C68.9543 100 60 91.0457 60 80V40Z" fill="white" fill-opacity="0.2"/>
+<path d="M60 40C60 28.9543 68.9543 20 80 20H120C131.046 20 140 28.9543 140 40V80C140 91.0457 131.046 100 120 100H80C68.9543 100 60 91.0457 60 80V40Z" stroke="white" stroke-opacity="0.4" stroke-width="2"/>
+
+<!-- Glass Container Bottom -->
+<path d="M60 120C60 108.954 68.9543 100 80 100H120C131.046 100 140 108.954 140 120V160C140 171.046 131.046 180 120 180H80C68.9543 180 60 171.046 60 160V120Z" fill="white" fill-opacity="0.2"/>
+<path d="M60 120C60 108.954 68.9543 100 80 100H120C131.046 100 140 108.954 140 120V160C140 171.046 131.046 180 120 180H80C68.9543 180 60 171.046 60 160V120Z" stroke="white" stroke-opacity="0.4" stroke-width="2"/>
+
+<!-- Sand Top -->
+<path d="M70 45C70 42.2386 72.2386 40 75 40H125C127.761 40 130 42.2386 130 45V70C130 86.5685 116.569 100 100 100C83.4315 100 70 86.5685 70 70V45Z" fill="url(#sand-gradient)"/>
+
+<!-- Sand Bottom (Pile) -->
+<path d="M70 160C70 143.431 83.4315 130 100 130C116.569 130 130 143.431 130 160V165C130 167.761 127.761 170 125 170H75C72.2386 170 70 167.761 70 165V160Z" fill="url(#sand-gradient)"/>
+
+<!-- Falling Sand -->
+<line x1="100" y1="100" x2="100" y2="130" stroke="url(#sand-gradient)" stroke-width="4" stroke-linecap="round"/>
+
+<!-- Shine details -->
+<path d="M65 35C65 35 75 25 90 25" stroke="white" stroke-opacity="0.3" stroke-width="2" stroke-linecap="round"/>
+<path d="M135 165C135 165 125 175 110 175" stroke="white" stroke-opacity="0.3" stroke-width="2" stroke-linecap="round"/>
+
+</svg>
